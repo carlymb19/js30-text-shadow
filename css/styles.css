@@ -1,0 +1,40 @@
+/* Carly Brown - 10/04 */
+
+/* Adapted from https://courses.wesbos.com/account/access/64ea54d5119d0f571e0842f1
+   CSS Text Shadow Mouse Move Effect */
+/* Nothin new in the CSS this week */
+
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+html {
+  color: black;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-image: url("https://images.unsplash.com/photo-1588775587739-7b7e1b11f4e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  /* Added a background image of a disco to complement the default word and text effects */
+  overflow: hidden;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(248, 230, 25); /* New text color to complement overall theme and text shadow colors */
+  font-size: 100px;
+  text-transform: uppercase; /* Added uppercase text transformation to make sure text stays capitalized even if changed by user */
+}
